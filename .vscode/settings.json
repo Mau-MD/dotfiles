@@ -1,0 +1,100 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.defaultFormatter": "ms-python.python",
+  "editor.suggest.preview": true,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "editor.wordWrap": "on",
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-v>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [":"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": [";"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["Tab"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<shift+tab>"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["<shift+k>"],
+      "after": ["v", "a", "t", "o", "<Esc>"]
+    },
+    {
+      "before": ["<shift+j>"],
+      "after": ["v", "a", "t", "<Esc>"]
+    }
+  ],
+  "vim.foldfix": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  "editor.formatOnSave": true,
+  "go.formatOnSave": true,
+  "go.formatTool": "gofmt",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "keyboard.dispatch": "keyCode",
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "svelte.enable-ts-plugin": true,
+  "explorer.confirmDelete": false,
+  "terminal.external.linuxExec": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "mssql.connections": [],
+  "editor.cursorBlinking": "expand",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "workbench.colorTheme": "poimandres",
+  "editor.lineNumbers": "relative",
+  "python.formatting.provider": "black"
+}
