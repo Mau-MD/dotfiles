@@ -1,0 +1,7 @@
+[user]
+	email = j.mauricio.munoz1@gmail.com
+	name = Mau MD
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
