@@ -15,8 +15,8 @@ plugins=(git
 	 zsh-z
 	)
 
-alias ga='git add .'
 alias gb='git branch'
+alias gaa='git add --all'
 alias gba='git branch -a '
 alias gbd='git branch --delete '
 alias gbD='git branch -D'
