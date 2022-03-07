@@ -9,14 +9,17 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-plugins=(git
+plugins=(
 	 zsh-autosuggestions
 	 zsh-syntax-highlighting
 	 zsh-z
 	)
 
+alias explorer='explorer.exe .'
+
 alias gb='git branch'
 alias gaa='git add --all'
+alias ga='git add --all'
 alias gba='git branch -a '
 alias gbd='git branch --delete '
 alias gbD='git branch -D'

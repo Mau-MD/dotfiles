@@ -7,3 +7,4 @@
 	defaultBranch = main
 [core]
     pager = less -FRX
+	autocrlf = true
