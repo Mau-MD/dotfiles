@@ -1,100 +1,108 @@
 {
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "editor.defaultFormatter": "ms-python.python",
+  "editor.inlineSuggest.showToolbar": "always",
   "editor.suggest.preview": true,
-  "editor.inlineSuggest.enabled": true,
-  "workbench.iconTheme": "vscode-icons",
-  "editor.insertSpaces": true,
-  "editor.tabSize": 2,
+  "vim.useCtrlKeys": false,
   "typescript.inlayHints.parameterNames.enabled": "all",
-  "editor.wordWrap": "on",
+  "workbench.iconTheme": "vscode-icons",
+  "files.exclude": {
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.classpath": true,
+    "**/.factorypath": true
+  },
+  "editor.suggestSelection": "first",
   "[python]": {
     "editor.insertSpaces": true,
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.tabSize": 4
   },
-  "vim.useCtrlKeys": false,
-  "vim.useSystemClipboard": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true
+  },
+  "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "poimandres",
   "vim.handleKeys": {
     "<C-f>": false,
     "<C-a>": false,
     "<C-c>": false,
     "<C-v>": false
   },
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindings": [
-    {
-      "before": [":"],
-      "commands": ["workbench.action.showCommands"]
-    },
-    {
-      "before": [";"],
-      "commands": ["workbench.action.quickOpen"]
-    },
-    {
-      "before": ["Tab"],
-      "commands": ["editor.action.indentLines"]
-    },
-    {
-      "before": ["<shift+tab>"],
-      "commands": ["editor.action.outdentLines"]
-    },
-    {
-      "before": ["<shift+k>"],
-      "after": ["v", "a", "t", "o", "<Esc>"]
-    },
-    {
-      "before": ["<shift+j>"],
-      "after": ["v", "a", "t", "<Esc>"]
-    }
-  ],
-  "vim.foldfix": true,
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false
-  },
-  "editor.formatOnSave": true,
-  "go.formatOnSave": true,
-  "go.formatTool": "gofmt",
-  "[go]": {
-    "editor.defaultFormatter": "golang.go"
-  },
-  "keyboard.dispatch": "keyCode",
-  "explorer.confirmDragAndDrop": false,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "svelte.enable-ts-plugin": true,
-  "explorer.confirmDelete": false,
-  "terminal.external.linuxExec": "zsh",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.bracketPairColorization.enabled": true,
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDelete": false,
+  "vim.useSystemClipboard": true,
+  "editor.insertSpaces": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "mssql.connections": [],
-  "editor.cursorBlinking": "expand",
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
+  "editor.linkedEditing": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "free-tier9.gcp-us-west2.cockroachlabs.cloud",
+      "port": 26257,
+      "driver": "CockroachDB",
+      "name": "Conecta",
+      "database": "defaultdb",
+      "username": "conecta",
+      "password": "eDt4RsNouwZ6uL1Q7iYMCQ"
+    }
+  ],
+  "git.autofetch": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.colorTheme": "poimandres",
-  "editor.lineNumbers": "relative",
-  "python.formatting.provider": "black"
+  "git.confirmSync": false,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "excalidraw.theme": "dark",
+  "dart.flutterSdkPath": "/Users/maumd/flutter",
+
+  // Dart
+  "debug.openDebug": "openOnDebugBreak",
+  "debug.internalConsoleOptions": "openOnSessionStart",
+
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "cSpell.userWords": [
+    "gamemode",
+    "leaderboard",
+    "mainpage",
+    "servericon",
+    "Toggable",
+    "UIAPI",
+    "UIDI"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "githubPullRequests.pullBranch": "never",
+  "typescript.preferences.importModuleSpecifier": "relative",
 }
